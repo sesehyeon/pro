@@ -1,0 +1,58 @@
+--------------------------------------------------------
+--  파일이 생성됨 - 월요일-7월-18-2022   
+--------------------------------------------------------
+--------------------------------------------------------
+--  DDL for Table MEMBER_0712
+--------------------------------------------------------
+
+  CREATE TABLE "MEMBER_0712" ("NUM" NUMBER, "ID" VARCHAR2(20), "PASSWORD" VARCHAR2(50), "NAME" VARCHAR2(30), "PHONE" VARCHAR2(13), "ADDRESS" VARCHAR2(200), "JOINDATE" DATE, "MODIFYDATE" DATE DEFAULT sysdate) 
+
+   COMMENT ON COLUMN "MEMBER_0712"."NUM" IS '회원 일련변호'
+   COMMENT ON COLUMN "MEMBER_0712"."ID" IS '회원 아이디'
+   COMMENT ON COLUMN "MEMBER_0712"."PASSWORD" IS '회원 비밀번호'
+   COMMENT ON COLUMN "MEMBER_0712"."NAME" IS '회원 이름'
+   COMMENT ON COLUMN "MEMBER_0712"."PHONE" IS '회원 전화번호'
+   COMMENT ON COLUMN "MEMBER_0712"."ADDRESS" IS '회원 주소'
+   COMMENT ON COLUMN "MEMBER_0712"."JOINDATE" IS '회원 가입일'
+   COMMENT ON COLUMN "MEMBER_0712"."MODIFYDATE" IS '회원 정보 수정일'
+   COMMENT ON TABLE "MEMBER_0712"  IS '회원정보'
+REM INSERTING into MEMBER_0712
+SET DEFINE OFF;
+Insert into MEMBER_0712 (NUM,ID,PASSWORD,NAME,PHONE,ADDRESS,JOINDATE,MODIFYDATE) values (3,'chi9148','1234','장혜인','010-3905-7027','서울지 동작구 여의대방로 22다길 5-10',to_date('22/07/12','RR/MM/DD'),to_date('22/07/14','RR/MM/DD'));
+Insert into MEMBER_0712 (NUM,ID,PASSWORD,NAME,PHONE,ADDRESS,JOINDATE,MODIFYDATE) values (4,'aaa','1234','장혜인','01011113333','제주도 제주시 외나무골',to_date('22/07/13','RR/MM/DD'),to_date('22/07/14','RR/MM/DD'));
+Insert into MEMBER_0712 (NUM,ID,PASSWORD,NAME,PHONE,ADDRESS,JOINDATE,MODIFYDATE) values (21,'bbb','1111','장혜인','01039057027','서울 동대문구 휘경2동',to_date('22/07/14','RR/MM/DD'),to_date('22/07/14','RR/MM/DD'));
+Insert into MEMBER_0712 (NUM,ID,PASSWORD,NAME,PHONE,ADDRESS,JOINDATE,MODIFYDATE) values (22,'ccc','1234','이혜인','01011112222','부산',to_date('22/07/14','RR/MM/DD'),to_date('22/07/14','RR/MM/DD'));
+Insert into MEMBER_0712 (NUM,ID,PASSWORD,NAME,PHONE,ADDRESS,JOINDATE,MODIFYDATE) values (23,'ddd','1234','홍길동',null,null,to_date('22/07/14','RR/MM/DD'),to_date('22/07/14','RR/MM/DD'));
+Insert into MEMBER_0712 (NUM,ID,PASSWORD,NAME,PHONE,ADDRESS,JOINDATE,MODIFYDATE) values (24,'eee','1234','김혜인','01084450441',null,to_date('22/07/14','RR/MM/DD'),to_date('22/07/14','RR/MM/DD'));
+Insert into MEMBER_0712 (NUM,ID,PASSWORD,NAME,PHONE,ADDRESS,JOINDATE,MODIFYDATE) values (25,'fff','1234','장동준','01062984889','탄현',to_date('22/07/14','RR/MM/DD'),to_date('22/07/14','RR/MM/DD'));
+Insert into MEMBER_0712 (NUM,ID,PASSWORD,NAME,PHONE,ADDRESS,JOINDATE,MODIFYDATE) values (26,'ggg','1234','김공주','01000000000','경기도 가평',to_date('22/07/14','RR/MM/DD'),to_date('22/07/14','RR/MM/DD'));
+Insert into MEMBER_0712 (NUM,ID,PASSWORD,NAME,PHONE,ADDRESS,JOINDATE,MODIFYDATE) values (28,'hhh','1234','무명','01012345678','별나라',to_date('22/07/14','RR/MM/DD'),to_date('22/07/14','RR/MM/DD'));
+Insert into MEMBER_0712 (NUM,ID,PASSWORD,NAME,PHONE,ADDRESS,JOINDATE,MODIFYDATE) values (29,'iii','1234','안녕','01011112222','서울역',to_date('22/07/14','RR/MM/DD'),to_date('22/07/14','RR/MM/DD'));
+Insert into MEMBER_0712 (NUM,ID,PASSWORD,NAME,PHONE,ADDRESS,JOINDATE,MODIFYDATE) values (30,'123','1234','졸려요','01039057027',null,to_date('22/07/14','RR/MM/DD'),to_date('22/07/14','RR/MM/DD'));
+Insert into MEMBER_0712 (NUM,ID,PASSWORD,NAME,PHONE,ADDRESS,JOINDATE,MODIFYDATE) values (31,'noid','1234','아이디없음','01033334444','종로3가',to_date('22/07/14','RR/MM/DD'),to_date('22/07/14','RR/MM/DD'));
+Insert into MEMBER_0712 (NUM,ID,PASSWORD,NAME,PHONE,ADDRESS,JOINDATE,MODIFYDATE) values (32,'coffee','1234','커피','01011112223','카페인',to_date('22/07/14','RR/MM/DD'),to_date('22/07/14','RR/MM/DD'));
+Insert into MEMBER_0712 (NUM,ID,PASSWORD,NAME,PHONE,ADDRESS,JOINDATE,MODIFYDATE) values (33,'aaaa','1234','장혜인','01084450441','종로구 행촌동',to_date('22/07/14','RR/MM/DD'),to_date('22/07/14','RR/MM/DD'));
+Insert into MEMBER_0712 (NUM,ID,PASSWORD,NAME,PHONE,ADDRESS,JOINDATE,MODIFYDATE) values (34,'abcde','1234','장혜인','01088887777','북한',to_date('22/07/14','RR/MM/DD'),to_date('22/07/14','RR/MM/DD'));
+Insert into MEMBER_0712 (NUM,ID,PASSWORD,NAME,PHONE,ADDRESS,JOINDATE,MODIFYDATE) values (35,'chi9143','1234','장혜인','01133334444','엄마집',to_date('22/07/14','RR/MM/DD'),to_date('22/07/14','RR/MM/DD'));
+Insert into MEMBER_0712 (NUM,ID,PASSWORD,NAME,PHONE,ADDRESS,JOINDATE,MODIFYDATE) values (36,'today15','1111','장혜인','027341830','행촌동',to_date('22/07/15','RR/MM/DD'),to_date('22/07/15','RR/MM/DD'));
+Insert into MEMBER_0712 (NUM,ID,PASSWORD,NAME,PHONE,ADDRESS,JOINDATE,MODIFYDATE) values (37,'jdcjdc77','1234','장동준','01012345678','아빠집',to_date('22/07/15','RR/MM/DD'),to_date('22/07/15','RR/MM/DD'));
+Insert into MEMBER_0712 (NUM,ID,PASSWORD,NAME,PHONE,ADDRESS,JOINDATE,MODIFYDATE) values (38,'abcd','1234','아메리카노','01033334444','메가커피',to_date('22/07/15','RR/MM/DD'),to_date('22/07/15','RR/MM/DD'));
+--------------------------------------------------------
+--  DDL for Index SYS_C007189
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "SYS_C007189" ON "MEMBER_0712" ("NUM")
+--------------------------------------------------------
+--  DDL for Index SYS_C007190
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "SYS_C007190" ON "MEMBER_0712" ("ID")
+--------------------------------------------------------
+--  Constraints for Table MEMBER_0712
+--------------------------------------------------------
+
+  ALTER TABLE "MEMBER_0712" ADD UNIQUE ("ID") ENABLE
+  ALTER TABLE "MEMBER_0712" ADD PRIMARY KEY ("NUM") ENABLE
+  ALTER TABLE "MEMBER_0712" MODIFY ("NAME" NOT NULL ENABLE)
+  ALTER TABLE "MEMBER_0712" MODIFY ("PASSWORD" NOT NULL ENABLE)
+  ALTER TABLE "MEMBER_0712" MODIFY ("ID" NOT NULL ENABLE)
