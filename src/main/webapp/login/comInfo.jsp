@@ -7,9 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<a href=""></a>
-<a href=""></a>
-<a href=""></a>
+<h1>회사 정보 </h1>
 
 </body>
 </html>
