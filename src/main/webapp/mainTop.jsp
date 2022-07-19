@@ -1,8 +1,12 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>WEB PAGE</title>
+<title>Insert title here</title>
+
+
 <style type="text/css">
 #nav_menu ul li{
 	display: inline;
@@ -39,9 +43,9 @@ li{
 <div id="nav_menu">
 	<nav class="navbar">
 		<ul class="navbar-nav" style="list-style-type: none;">
-		<li class="nav-item" style="display: inline; " ><a href="../main.jsp" >Main</a></li>
-		<li class="nav-item" style="display: inline; "><a href="../login/login.jsp">login</a></li>
-		<li class="nav-item" style="display: inline; "><a href="../member/join_view.jsp">Join</a></li>
+		<li class="nav-item" style="display: inline; " ><a href="main.jsp" >Main</a></li>
+		<li class="nav-item" style="display: inline; "><a href="login/login.jsp">login</a></li>
+		<li class="nav-item" style="display: inline; "><a href="member/join_view.jsp">Join</a></li>
 		</ul>
 	</nav>
 

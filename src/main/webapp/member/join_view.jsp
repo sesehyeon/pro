@@ -12,7 +12,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+<%@ include file="../login/top.html" %>
 <meta charset="UTF-8">
+<br>
+<br>
 <title>회원가입</title>
 <link href="../css/member.css" rel="stylesheet">
 </head>
