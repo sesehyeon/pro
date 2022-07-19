@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/** 회원 관련 CSS */
+.wrapper {width: 700px; margin: 50px auto;}
+.ml {width: 1000px;}
+input[type="submit"], input[type="button"] {padding: 5px 20px; font-size: 16px; cursor: pointer;}
+input[type="text"], input[type="password"] {font-size: 16px; padding: 5px;}
+input[type="checkbox"] {width: 20px; height: 20px; cursor: pointer; vertical-align: middle;}
+table {border-collapse: collapse; width: 100%;}
+table td, table th {border: 1px solid #000; padding: 5px}
+#idCheck {padding: 5px 10px; font-size: 16px;margin-left: 5px;cursor: pointer;}
+.tac {text-align: center;}
+th.mlfield {cursor: pointer;}
+th.mlfield[data-type="1"]::after {content: "▼"; float: right;}
+th.mlfield[data-type="0"]::after {content: "▲"; float: right;}
+th.mlfield:hover {background: #9cf;}
+.searchArea {margin-bottom: 10px;}
+.mtr:hover {background: #aff; cursor: pointer;}
+.mtr > td {cursor: pointer;}
+.conditionArea label {cursor: pointer;}
+.conditionArea, .keywordArea {display: inline-block;}
+.keywordArea {margin-left: 50px;}
+.keywordArea input[name="keyword"] {width: 238px !important;}
+input[type="text"], input[type="password"] {font-size: 16px; padding: 5px;width:70%;}
+p.msg {color: #f00; margin: 0;}
+.pageBtn button {padding: 5px 10px; cursor: pointer; font-size: 14px;}
+.pageBtn {text-align: center; padding: 20px;}
